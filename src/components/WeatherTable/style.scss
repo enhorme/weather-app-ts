@@ -1,0 +1,25 @@
+.weather {
+  width: 100%;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 2em;
+
+  &__title {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    h2 {
+      margin: 0;
+    }
+    span {
+      color: #777;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
